@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: black;
+  color: white;
+  font-family: Inter, sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f6b300;
+  border-radius: 999px;
+}
+
+.gold-glow {
+  box-shadow:
+    0 0 15px #f6b300,
+    0 0 40px #f6b300;
+}
+
+.gold-text {
+  background: linear-gradient(
+    90deg,
+    #f6b300,
+    #fff4a3,
+    #f6b300
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.hero-grid {
+  background-image:
+    linear-gradient(rgba(255,184,0,.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,184,0,.08) 1px, transparent 1px);
+
+  background-size: 60px 60px;
+}
